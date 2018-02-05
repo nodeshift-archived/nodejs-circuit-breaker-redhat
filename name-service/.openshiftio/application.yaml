@@ -30,7 +30,7 @@ objects:
 - apiVersion: v1
   kind: ImageStream
   metadata:
-    name: nodejs-circuit-breaker-name
+    name: nodejs-circuit-breaker-redhat-name
   spec: {}
 - apiVersion: v1
   kind: ImageStream
@@ -45,12 +45,12 @@ objects:
 - apiVersion: v1
   kind: BuildConfig
   metadata:
-    name: nodejs-circuit-breaker-name
+    name: nodejs-circuit-breaker-redhat-name
   spec:
     output:
       to:
         kind: ImageStreamTag
-        name: nodejs-circuit-breaker-name:latest
+        name: nodejs-circuit-breaker-redhat-name:latest
     postCommit: {}
     resources: {}
     source:
@@ -84,23 +84,23 @@ objects:
         targetPort: 8080
     type: ClusterIP
     selector:
-      project: nodejs-circuit-breaker-name
+      project: nodejs-circuit-breaker-redhat-name
       provider: nodeshift
   metadata:
-    name: nodejs-circuit-breaker-name
+    name: nodejs-circuit-breaker-redhat-name
     labels:
       provider: nodeshift
       expose: 'true'
-      project: nodejs-circuit-breaker-name
+      project: nodejs-circuit-breaker-redhat-name
       version: 0.0.1
 - apiVersion: v1
   kind: DeploymentConfig
   metadata:
-    name: nodejs-circuit-breaker-name
+    name: nodejs-circuit-breaker-redhat-name
     labels:
-      app: nodejs-circuit-breaker-name
+      app: nodejs-circuit-breaker-redhat-name
       provider: nodeshift
-      project: nodejs-circuit-breaker-name
+      project: nodejs-circuit-breaker-redhat-name
       version: 0.0.1
   spec:
     template:
@@ -118,8 +118,8 @@ objects:
                 scheme: HTTP
               initialDelaySeconds: 60
               periodSeconds: 30
-            image: nodejs-circuit-breaker-name
-            name: nodejs-circuit-breaker-name
+            image: nodejs-circuit-breaker-redhat-name
+            name: nodejs-circuit-breaker-redhat-name
             securityContext:
               privileged: false
             ports:
@@ -128,14 +128,14 @@ objects:
                 protocol: TCP
       metadata:
         labels:
-          app: nodejs-circuit-breaker-name
-          project: nodejs-circuit-breaker-name
+          app: nodejs-circuit-breaker-redhat-name
+          project: nodejs-circuit-breaker-redhat-name
           provider: nodeshift
           version: 0.0.1
     replicas: 1
     selector:
-      app: nodejs-circuit-breaker-name
-      project: nodejs-circuit-breaker-name
+      app: nodejs-circuit-breaker-redhat-name
+      project: nodejs-circuit-breaker-redhat-name
       provider: nodeshift
     triggers:
       - type: ConfigChange
@@ -143,21 +143,21 @@ objects:
         imageChangeParams:
           automatic: true
           containerNames:
-            - nodejs-circuit-breaker-name
+            - nodejs-circuit-breaker-redhat-name
           from:
             kind: ImageStreamTag
-            name: 'nodejs-circuit-breaker-name:latest'
+            name: 'nodejs-circuit-breaker-redhat-name:latest'
 - apiVersion: v1
   kind: Route
   spec:
     to:
       kind: Service
-      name: nodejs-circuit-breaker-name
+      name: nodejs-circuit-breaker-redhat-name
     port:
       targetPort: 8080
   metadata:
-    name: nodejs-circuit-breaker-name
+    name: nodejs-circuit-breaker-redhat-name
     labels:
       provider: nodeshift
-      project: nodejs-circuit-breaker-name
+      project: nodejs-circuit-breaker-redhat-name
       version: 0.0.1

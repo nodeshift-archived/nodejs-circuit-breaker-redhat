@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-circuit-breaker-greeting",
+  "name": "nodejs-circuit-breaker-redhat-greeting",
   "version": "0.0.1",
   "author": "Red Hat, Inc.",
   "license": "Apache-2.0",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bucharest-gold/nodejs-circuit-breaker.git"
+    "url": "git://github.com/bucharest-gold/nodejs-circuit-breaker-redhat.git"
   },
   "files": [
     "package.json",
@@ -30,9 +30,9 @@
     "licenses"
   ],
   "bugs": {
-    "url": "https://github.com/bucharest-gold/nodejs-circuit-breaker/issues"
+    "url": "https://github.com/bucharest-gold/nodejs-circuit-breaker-redhat/issues"
   },
-  "homepage": "https://github.com/bucharest-gold/nodejs-circuit-breaker",
+  "homepage": "https://github.com/bucharest-gold/nodejs-circuit-breaker-redhat",
   "devDependencies": {
     "eslint": "~3.8.1",
     "eslint-config-semistandard": "~7.0.0",

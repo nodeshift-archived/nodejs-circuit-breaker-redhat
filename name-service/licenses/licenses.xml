@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <licenseSummary>
-    <project>nodejs-circuit-breaker-name</project>
+    <project>nodejs-circuit-breaker-redhat-name</project>
     <version>0.0.1</version>
     <license>Apache-2.0</license>
     <dependencies>
