@@ -28,7 +28,7 @@ const server = require('http').createServer(app);
 // add basic health check endpoints
 probe(app);
 
-const nameServiceHost = process.env.NAME_SERVICE_HOST || 'http://nodejs-circuit-breaker-name:8080';
+const nameServiceHost = process.env.NAME_SERVICE_HOST || 'http://nodejs-circuit-breaker-redhat-name:8080';
 
 const circuitOptions = {
   timeout: 3000, // If name service takes longer than .3 seconds, trigger a failure

@@ -24,4 +24,4 @@ echo "Deploying name service"
 npm run openshift
 
 cd ..
-open http://`oc get route nodejs-circuit-breaker-greeting | tail -1 | cut -d ' ' -f 4`
+open http://`oc get route nodejs-circuit-breaker-redhat-greeting | tail -1 | cut -d ' ' -f 4`

@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-circuit-breaker-name",
+  "name": "nodejs-circuit-breaker-redhat-name",
   "version": "0.0.1",
   "main": "false",
   "author": "Red Hat, Inc.",
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bucharest-gold/nodejs-circuit-breaker.git"
+    "url": "git://github.com/bucharest-gold/nodejs-circuit-breaker-redhat.git"
   },
   "files": [
     "package.json",
@@ -29,9 +29,9 @@
     "licenses"
   ],
   "bugs": {
-    "url": "https://github.com/bucharest-gold/nodejs-circuit-breaker/issues"
+    "url": "https://github.com/bucharest-gold/nodejs-circuit-breaker-redhat/issues"
   },
-  "homepage": "https://github.com/bucharest-gold/nodejs-circuit-breaker",
+  "homepage": "https://github.com/bucharest-gold/nodejs-circuit-breaker-redhat",
   "devDependencies": {
     "eslint": "~3.8.1",
     "eslint-config-semistandard": "~7.0.0",

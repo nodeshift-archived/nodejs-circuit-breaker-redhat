@@ -80,7 +80,7 @@ active project. Then run the `./start-openshift.sh` script.
 ```sh
 $ minishift start # You may have some options here, e.g. --memory=8096 --vm-driver=virtualbox
 $ oc login -u developer # Login
-$ oc new-project circuit-breaker-booster # Create a project to deploy to
+$ oc new-project circuit-breaker-booster-redhat # Create a project to deploy to
 $ ./start-openshift.sh # Launch the booster app
 ```
 

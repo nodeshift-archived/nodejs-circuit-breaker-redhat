@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Deployment
 metadata:
-  name: nodejs-circuit-breaker-name
+  name: nodejs-circuit-breaker-redhat-name
 spec:
   template:
     spec:
