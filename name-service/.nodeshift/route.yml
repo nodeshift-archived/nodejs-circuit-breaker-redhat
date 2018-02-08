@@ -1,10 +1,7 @@
 apiVersion: v1
 kind: Route
-metadata:
-  name: nodejs-circuit-breaker-redhat-name
 spec:
   port:
     targetPort: 8080
   to:
     kind: Service
-    name: name-service
