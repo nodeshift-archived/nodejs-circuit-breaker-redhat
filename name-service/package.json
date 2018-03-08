@@ -12,7 +12,7 @@
     "coverage": "istanbul cover tape test/*.js",
     "dependencyCheck": "szero . --ci",
     "prepublish": "license-reporter report",
-    "openshift": "nodeshift --strictSSL=false --nodeVersion=8.x --metadata.out=nodeshift-metadata.json",
+    "openshift": "nodeshift --strictSSL=false --dockerImage=registry.access.redhat.com/rhoar-nodejs/nodejs-8 --metadata.out=nodeshift-metadata.json",
     "postinstall": "license-reporter report && license-reporter save --xml licenses.xml",
     "start": "PORT=8080 node ./bin/www"
   },
