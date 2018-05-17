@@ -41,7 +41,7 @@ objects:
     - name: latest
       from:
         kind: DockerImage
-        name: 'registry.access.redhat.com/rhoar-nodejs/nodejs-8:latest'
+        name: 'registry.access.redhat.com/rhoar-nodejs/nodejs-10:latest'
 - apiVersion: v1
   kind: BuildConfig
   metadata:
