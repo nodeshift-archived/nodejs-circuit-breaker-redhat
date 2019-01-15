@@ -44,9 +44,8 @@
   "devDependencies": {
     "istanbul": "~0.4.5",
     "nodeshift": "~1.7.1",
-    "nsp": "~2.6.2",
     "szero": "^0.7.1",
-    "tap-spec": "~4.1.1",
+    "tap-spec": "~5.0.0",
     "tape": "~4.6.2",
     "xo": "~0.20.3"
   },
