@@ -6,8 +6,6 @@
   "scripts": {
     "test": "tape test/integration/*.js | tap-spec",
     "lint": "xo",
-    "prepare": "echo 'To confirm CVE compliance, run \"npm run security-check\"' ",
-    "security-check": "nsp check",
     "coverage": "nyc npm test",
     "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
     "dependencyCheck": "szero . --ci",
@@ -45,11 +43,10 @@
   "homepage": "https://github.com/nodeshift-starters/nodejs-circuit-breaker-redhat",
   "devDependencies": {
     "istanbul": "~0.4.5",
-    "nodeshift": "~1.7.1",
-    "nsp": "~2.6.2",
-    "nyc": "~11.0.3",
+    "nodeshift": "~1.7.3",
+    "nyc": "~13.1.0",
     "szero": "^0.7.1",
-    "tap-spec": "~4.1.1",
+    "tap-spec": "~5.0.0",
     "tape": "~4.6.2",
     "xo": "~0.20.3"
   },
@@ -63,10 +60,10 @@
     "resiliency"
   ],
   "dependencies": {
-    "body-parser": "^1.18.2",
+    "body-parser": "~1.18.3",
     "express": "4.16.0",
     "kube-probe": "~0.1.2",
-    "license-reporter": "^1.2.0",
+    "license-reporter": "~1.2.2",
     "opossum": "~1.2.1",
     "roi": "~0.15.0",
     "ws": "~3.3.2"
