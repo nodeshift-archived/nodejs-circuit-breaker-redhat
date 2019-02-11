@@ -1,5 +1,7 @@
 # Circuit Breaker Mission - Node.js Booster
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nodeshift-starters/nodejs-circuit-breaker-redhat.svg)](https://greenkeeper.io/)
+
 The Circuit Breaker Mission demonstrates a generic pattern for reporting the
 failure of a service and then limiting access to the failed service until it
 becomes available to handle requests. This helps prevent cascading failure in
