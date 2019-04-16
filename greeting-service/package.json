@@ -43,12 +43,12 @@
   "homepage": "https://github.com/nodeshift-starters/nodejs-circuit-breaker-redhat",
   "devDependencies": {
     "istanbul": "~0.4.5",
-    "nodeshift": "~1.7.3",
-    "nyc": "~13.1.0",
+    "nodeshift": "~3.0.0",
+    "nyc": "~14.0.0",
     "szero": "^0.7.1",
     "tap-spec": "~5.0.0",
     "tape": "~4.6.2",
-    "xo": "~0.20.3"
+    "xo": "~0.24.0"
   },
   "gitHubUser": "lance",
   "description": "demonstrates a generic pattern for reporting the failure of a service and then limiting access to the failed service until it becomes available to handle requests.",
