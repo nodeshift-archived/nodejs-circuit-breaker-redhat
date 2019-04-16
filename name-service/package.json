@@ -44,6 +44,8 @@
   "devDependencies": {
     "istanbul": "~0.4.5",
     "nodeshift": "~2.1.1",
+    "nodeshift": "~3.0.0",
+    "nyc": "~14.0.0",
     "szero": "^1.0.1",
     "tap-spec": "~5.0.0",
     "tape": "~4.10.0",
