@@ -9,7 +9,6 @@
     "prepare": "echo 'To confirm CVE compliance, run \"npm run security-check\"' ",
     "security-check": "nsp check",
     "coverage": "istanbul cover tape test/*.js",
-    "dependencyCheck": "szero . --ci",
     "prepublish": "license-reporter report -s",
     "openshift": "nodeshift --strictSSL=false --dockerImage=registry.access.redhat.com/rhoar-nodejs/nodejs-8 --metadata.out=nodeshift-metadata.json",
     "postinstall": "license-reporter report -s && license-reporter save -s --xml licenses.xml",
@@ -45,7 +44,6 @@
     "istanbul": "~0.4.5",
     "nodeshift": "~3.0.0",
     "nyc": "~14.0.0",
-    "szero": "^0.7.1",
     "tap-spec": "~5.0.0",
     "tape": "~4.6.2",
     "xo": "~0.20.3"
