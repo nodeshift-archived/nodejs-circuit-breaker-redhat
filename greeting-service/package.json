@@ -58,12 +58,12 @@
     "resiliency"
   ],
   "dependencies": {
+    "axios": "^0.19.0",
     "body-parser": "~1.18.3",
     "express": "4.16.0",
     "kube-probe": "~0.1.2",
     "license-reporter": "~1.2.2",
     "opossum": "~1.2.1",
-    "roi": "~0.15.0",
     "ws": "~3.3.2"
   }
 }
