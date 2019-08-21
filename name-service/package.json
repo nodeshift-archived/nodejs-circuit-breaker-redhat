@@ -42,20 +42,20 @@
   "homepage": "https://github.com/nodeshift-starters/nodejs-circuit-breaker-redhat",
   "devDependencies": {
     "istanbul": "~0.4.5",
-    "nodeshift": "~3.0.0",
-    "nyc": "~14.0.0",
+    "nodeshift": "~3.0.1",
+    "nyc": "~14.1.1",
     "tap-spec": "~5.0.0",
-    "tape": "~4.6.2",
+    "tape": "~4.11.0",
     "xo": "~0.20.3"
   },
   "description": "",
   "keywords": [],
   "dependencies": {
-    "body-parser": "^1.18.2",
+    "body-parser": "~1.19.0",
     "cors": "~2.8.4",
-    "express": "4.16.0",
-    "kube-probe": "~0.1.2",
-    "license-reporter": "^1.2.0",
-    "ws": "~3.3.2"
+    "express": "~4.17.1",
+    "kube-probe": "~0.3.2",
+    "license-reporter": "~1.2.2",
+    "ws": "~6.2.0"
   }
 }
