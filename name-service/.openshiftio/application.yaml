@@ -41,7 +41,7 @@ objects:
     - name: latest
       from:
         kind: DockerImage
-        name: 'registry.access.redhat.com/rhscl/nodejs-10-rhel7'
+        name: 'registry.access.redhat.com/ubi8/nodejs-10'
 - apiVersion: build.openshift.io/v1
   kind: BuildConfig
   metadata:
