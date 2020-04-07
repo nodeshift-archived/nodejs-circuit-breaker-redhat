@@ -45,7 +45,7 @@
     "nodeshift": "~4.1.0",
     "nyc": "~14.1.1",
     "tap-spec": "~5.0.0",
-    "tape": "~4.12.0",
+    "tape": "~4.13.2",
     "xo": "~0.25.3"
   },
   "gitHubUser": "lance",
