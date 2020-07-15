@@ -42,7 +42,7 @@
   "homepage": "https://github.com/nodeshift-starters/nodejs-circuit-breaker-redhat",
   "devDependencies": {
     "istanbul": "~0.4.5",
-    "nodeshift": "~6.0.2",
+    "nodeshift": "~6.2.0",
     "nyc": "~14.1.1",
     "tap-spec": "~5.0.0",
     "tape": "~4.13.2",
