@@ -44,7 +44,7 @@
     "nodeshift": "~6.2.0",
     "nyc": "~14.1.1",
     "tap-spec": "~5.0.0",
-    "tape": "~4.13.2"
+    "tape": "~5.1.0"
   },
   "gitHubUser": "lance",
   "description": "demonstrates a generic pattern for reporting the failure of a service and then limiting access to the failed service until it becomes available to handle requests.",
