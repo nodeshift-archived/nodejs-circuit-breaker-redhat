@@ -20,7 +20,7 @@ const path = require('path');
 const http = require('http');
 const express = require('express');
 const bodyParser = require('body-parser');
-const Opossum = require('opossum');
+const Opossum = require('@redhat/opossum');
 const probe = require('kube-probe');
 const nameService = require('./lib/name-service-client');
 
