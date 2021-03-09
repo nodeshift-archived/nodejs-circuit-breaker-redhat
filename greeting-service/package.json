@@ -47,7 +47,6 @@
     "tap-spec": "~5.0.0",
     "tape": "~5.1.1"
   },
-  "gitHubUser": "lance",
   "description": "demonstrates a generic pattern for reporting the failure of a service and then limiting access to the failed service until it becomes available to handle requests.",
   "keywords": [
     "circuitbreaker",
