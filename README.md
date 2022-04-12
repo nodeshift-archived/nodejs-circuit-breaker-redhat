@@ -1,3 +1,7 @@
+This example is now deprecated and has been combined with https://github.com/nodeshift-starters/nodejs-circuit-breaker
+
+
+
 # Circuit Breaker Example Application - Node.js Example
 
 https://access.redhat.com/documentation/en-us/red_hat_build_of_node.js/
